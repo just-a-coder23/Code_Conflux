@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container" onclick="redirectToWeatherPage()">
+        <h2>Weather Info</h2>
+        
+        <p id="city-name">City: --</p>
+        <p id="temperature">Temperature: --°C</p>
+        <p id="weather-description">Condition: --</p>
+        <img id="weather-icon" src="" alt="Weather Icon">
+    
+        <p class="click-info">(Click for detailed weather forecast)</p>
+    </div>
+    
+    <script>
+    function redirectToWeatherPage() {
+        window.open("/Weather/weather.html", "_parent");
+    }
+    </script>
+    <script src="java.js"></script>
+</body>
+</html>

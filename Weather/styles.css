@@ -1,0 +1,35 @@
+*{
+    font-family: "Raleway", serif;
+}
+body{
+    background-image: url(white-clouds-and-bright-blue-sky-background.webp);
+    background-size: cover;
+}
+.weather-container {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f4f4f4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    text-align: center;
+}
+
+.forecast-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.click-info {
+    font-size: 12px;
+    color: gray;
+}

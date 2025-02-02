@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    font-family: "Raleway", serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+#main-heading {
+    margin-left: 170px;
+    margin-right: 480px;
+}
+
+#links-div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; /* Adjust as needed */
+}
+
+.top-links{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-weight: bold;
+}
+.top-links:hover{
+    text-decoration: underline;
+}
+.home {
+    width: 100%; /* Set width */
+    height: 600px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: antiquewhite;
+}
+#button
+{
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border: none;
+    padding: 10px 25px;
+    transition: box-shadow 0.4s;
+}
+#button:hover{
+    box-shadow: 0px 0px 15px rgb(37, 96, 207);
+}
+#avatar{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: box-shadow 0.4s;
+}
+#avatar:hover{
+    box-shadow: 0px 0px 14px rgb(0, 183, 255);
+}
+#info{
+    padding-bottom: 40px;
+}
+.information{
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.user-image{
+    display: inline-block;
+    margin-left: 400px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.about
+{
+    width: 100%; /* Set width */
+    height: 600px;
+    display: flex;
+    /* background-color: rgb(144, 103, 49); */
+    padding-top: 20px;
+}
+#aboutme
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.ppicture
+{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 250px;
+    margin-left: 200px;
+}
+#av2{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: box-shadow 0.4s;
+}
+#av2:hover{
+    box-shadow: 0px 0px 14px rgb(0, 183, 255);
+}
+.description
+{
+    display: inline-block;  
+    height: 350px;
+    width: 600px;
+}
+/* Skills Section */
+#skills
+{
+    text-align: center;
+}
+.skills {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.skills h1 {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.skills li:hover {
+    background-color: #555;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* Education Section */
+#education
+{
+    text-align: center;
+}
+.education {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.education h1 {
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Work Section */
+#work
+{
+    text-align: center;
+}
+.work {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.work h1 {
+    margin-bottom: 20px;
+}
+
+.work p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Experience Section */
+#experience
+{
+    text-align: center;
+}
+.experience {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.experience h1 {
+    margin-bottom: 20px;
+}
+
+.experience p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Footer */
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjustments for mobile screens */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main-heading {
+        margin: 0;
+    }
+
+    #links-div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 80px;
+        height: auto;
+    }
+
+    .user-image {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .ppicture {
+        margin: 0 auto;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .skills li {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .education p, .work p, .experience p {
+        width: 90%;
+    }
+}
