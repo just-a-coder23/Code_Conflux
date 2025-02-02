@@ -9,3 +9,5 @@ step 2: after that you will be able to view the following pages after clicking t
 
 
 (NOTE:- the name of our website 'TriBzIo', can be expanded to 'T' signifying Task Management System, 'Tri' symbolizing the number of memebers in our team, 'Bz' signifying Breeze which is part of our weather widget and lastly 'Io' signifying our Portfolio Portal.)
+
+PS: The user is not able to access the to-do list and portfolio portals before signing up but he/she can still access the weather portal.
